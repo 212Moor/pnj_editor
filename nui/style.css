@@ -1,0 +1,70 @@
+/* ✅ Empêche l'ouverture du menu au spawn */
+body {
+  display: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-family: Arial, sans-serif;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+#menu {
+  width: 360px;
+  height: 80vh;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 10px 0;
+}
+
+.tip {
+  font-size: 12px;
+  opacity: 0.6;
+  text-align: center;
+  margin-top: auto;
+}
+
+.minimized {
+  opacity: 0.3;
+  pointer-events: none;
+}

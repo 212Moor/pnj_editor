@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu">
+    <h2>Éditeur de PNJ 🎬</h2>
+
+    <input id="search" placeholder="🔍 Rechercher un ped...">
+    <select id="pedSelect" size="10"></select>
+    <button id="spawn">Spawn PNJ</button>
+
+    <hr>
+
+    <div class="input-group">
+      <label>Catégorie d’animation :</label>
+      <select id="animCategory">
+        <option value="social">Social</option>
+        <option value="travail">Travail</option>
+        <option value="fun">Fun</option>
+        <option value="combat">Combat</option>
+      </select>
+
+      <select id="animSelect"></select>
+      <button id="apply">Jouer animation</button>
+    </div>
+
+    <hr>
+    <button id="place">🧍 Mode Placement</button>
+    <button id="save">💾 Sauvegarder Scène</button>
+    <button id="close">Fermer</button>
+
+    <p class="tip">↑ ↓ ← → déplacement<br>PageUp/PageDown hauteur<br>Suppr supprimer</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
